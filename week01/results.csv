@@ -1,0 +1,9 @@
+scenario,temperature,top_p,output_len,latency_sec,note
+summarization,,,48,31.303982734680176,2-3 sentence summary
+qa,,,92,7.845135688781738,LLM LifeCycle question
+style_transfer,,,27,3.981947898864746,casual rewrite
+summarization_raw,0.7,0.9,22,2.2068111896514893,/api/generate path with sampling
+summarization,,,47,17.374752044677734,2-3 sentence summary
+qa,,,33,1.4866960048675537,LLM LifeCycle question
+style_transfer,,,31,1.2575464248657229,casual rewrite
+summarization_raw,0.7,0.9,25,1.028641939163208,/api/generate path with sampling
